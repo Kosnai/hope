@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>売上詳細（管理者Ver）</title>
+</head>
+<body>
+<div style="text-align: center">
+			<h1>売上詳細（管理者Ver）</h1>
+			<table  border cellpadding="50" cellspacing="10" style="margin: auto; ">
+				<tr>
+				<th style=" width: 150px">取引履歴</th>
+				<th><a href="<%=request.getContextPath()%>">出品者名</a></th>
+				<th><a href="<%=request.getContextPath()%>">購入商品名</a></th>
+				<th><a href="<%=request.getContextPath()%>">取引商品名</a></th>
+				<th><a href="<%=request.getContextPath()%>">金額</a></th>
+				<th><a href="<%=request.getContextPath()%>">取引日</a></th>
+			    </tr>
+			    
+			  
+			</table>
+			<table  border cellpadding="10" cellspacing="10" style="margin-left: 950px; ">
+			<tr>
+					<th style=" width: 150px">売り上げ合計(10%)</th>
+					<th>￥xxxx</th>
+					</tr>
+					<tr>
+					<th style=" width: 150px">月毎売り上げ合計(10%)</th>
+					<th>￥xxxx</th>
+					</tr>
+				
+			</table>
+		</div>
+
+</body>
+</html>
